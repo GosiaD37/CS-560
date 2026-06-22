@@ -1,0 +1,7 @@
+Frontend build check completed successfully after code updates:
+cd frontend
+npm run build
+
+Result: Vue/TypeScript frontend type-check and Vite production build completed successfully.
+
+Backend note: backend dependencies include better-sqlite3. In this container, backend install tried to download Node headers and failed because external download access was unavailable. Use Codio or your course environment for backend setup.
